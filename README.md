@@ -81,7 +81,7 @@ Performance Comparison of the `minus` methods
 ------------
 
 The `Money` class contains two methods, namely `minus` and `minusComplex`, which, in an abstract perspective, function
-the same. However, the implementation and assumptions are fundamentally different. `Minus` assumes that finely
+the same. However, the implementation and assumptions are fundamentally different. `minus` assumes that finely
 specifying the banknote values from the argument's object is unnecessary; rather it calculates the total amount as a
 decimal value. While `minusComplex` takes into account the whole banknote values as is.
 
